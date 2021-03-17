@@ -7,4 +7,3 @@ echo $VERSION >> .tags
 echo $VERSION
 echo $ARTIFACT_ID
 sed -i "s/XXXXX/$VERSION/" Dockerfile
-more Dockerfile
