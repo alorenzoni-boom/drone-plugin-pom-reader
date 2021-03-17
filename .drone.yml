@@ -18,7 +18,6 @@ steps:
       password: Slovenija1974
       repo: antonijolorenzoni/drone-plugin-pom-reader
       tags: latest
-
         
 trigger:
   branch:
