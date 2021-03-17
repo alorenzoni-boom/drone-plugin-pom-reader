@@ -15,7 +15,8 @@ steps:
     image: plugins/docker
     settings:
       username: antonijolorenzoni
-      password: Slovenija1974
+      password: 
+        from_secret: dockerhub_pass
       repo: antonijolorenzoni/drone-plugin-pom-reader
       tags: latest
         
